@@ -1,0 +1,550 @@
+/*TEMAS*/
+.theme-1 {
+      background-image: url("http://192.168.64.2/kids/assets/img/theme/bg-theme2.jpg");
+      background-repeat: repeat;
+      background-size: 100% 100%;
+}
+.theme-2 {
+      background-image: url("http://192.168.64.2/kids/assets/img/theme/bg-theme2.jpg");
+      background-repeat: repeat;
+      background-size: 100% 100%;
+}
+.theme-slide-2 {
+      background-image: url("http://192.168.64.2/kids/assets/img/theme/bg-theme2.jpg");
+      background-repeat: repeat;
+      background-size: 1500px 100%;
+}
+.bot_message_blue{
+    color: #29b7db;
+    width: 100%;
+    height: 50%;
+    line-height: 2em;
+    border: 3px solid #29b7db;
+    text-align: center;
+    border-radius: 10px;
+    font: 20px 'trebuchet MS', 'lucida sans';
+}
+.bot_message_maroon{
+    color: #db316f;
+    width: 100%;
+    height: 50%;
+    line-height: 2em;
+    border: 3px solid #db316f;
+    text-align: center;
+    border-radius: 10px;
+    font: 20px 'trebuchet MS', 'lucida sans';
+}
+.bot_message_green{
+    color: #8dde19;
+    width: 100%;
+    height: 50%;
+    line-height: 2em;
+    border: 3px solid #8dde19;
+    text-align: center;
+    border-radius: 10px;
+    font: 20px 'trebuchet MS', 'lucida sans';
+}
+.bot_message_purple{
+    color: #a347a8;
+    width: 100%;
+    height: 50%;
+    line-height: 2em;
+    border: 3px solid #a347a8;
+    text-align: center;
+    border-radius: 10px;
+    font: 20px 'trebuchet MS', 'lucida sans';
+}
+.bot_message_yellow{
+    color: #ffa500;
+    width: 100%;
+    height: 50%;
+    line-height: 2em;
+    border: 3px solid #ffa500;
+    text-align: center;
+    border-radius: 10px;
+    font: 30px 'trebuchet MS', 'lucida sans';
+}
+.bot_modal{
+    width: 100%;
+    height: 30%;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.bot_modal_maroon{
+    width: 100%;
+    height: 5%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+/*FIN TEMAS*/
+
+/* ---------- READING -------------*/
+.patern-top-info{
+  padding: 10rem;
+  text-align: center;
+}
+
+.top-info{
+  color: #fff;
+  width: 200px;
+  height: 10px;
+  padding: 5px;
+  border: 3px solid #008cffe5;
+  text-align: center;
+  border-radius: 50px;
+  font: 15px 'trebuchet MS', 'lucida sans';
+  text-decoration: none;
+}
+.top-info:hover {
+  background-color: #008cffe5;
+  border: 3px solid #008cffe5;
+}
+.link {
+  color: white;
+  text-decoration: none;
+}
+.link:hover {
+  color: white;
+  text-decoration: none;
+}
+/* ---------- REACTIVO -------------*/
+
+.reactivo {
+	background: #70b114; 
+	color: #fff;
+	border-radius: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 100%;
+	border:0;
+}
+
+.bg-transparent {
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+.bg-transparenty .box-widget {
+	color: red;
+}
+
+.dropdown-list:link{
+	text-decoration: none;
+}
+
+.label-input {
+	background: white; 
+	border: 1px solid white;
+	width: 50px;
+}
+
+.img-chico {
+	background:#98309d; 
+	border-width: 3px; 
+	border-color:#701475;
+}
+
+.bg-body-student {
+	background: #e5e8e8;
+}
+
+.bg-block-gray {
+	background: #fdfdfc;
+}
+
+.width-table-rc {
+	width: 70%;
+}
+
+.padding-top-bottom {
+	padding-top:    10px;
+	padding-left:   0px;
+	padding-right:  0px;
+	padding-bottom: 10px;
+}
+
+.no-padding-bottom {
+	padding-top:    10px;
+	padding-left:   10px;
+	padding-right:  10px;
+	padding-bottom: 0px;
+}
+.no-padding-top {
+	padding-top:    0px;
+	padding-left:   10px;
+	padding-right:  10px;
+	padding-bottom: 10px;
+}
+
+.padding-square-no-top-bottom {
+	padding-top:    0px;
+	padding-left:   15px;
+	padding-right:  15px;
+	padding-bottom: 0px;
+}
+
+.no-shadow {
+	-webkit-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+	   -moz-box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+	        box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+}
+
+.box-shadow-sm {
+	-webkit-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.07);
+	   -moz-box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.07);
+	        box-shadow: 0px 0px 3px 2px rgba(0,0,0,0.07);
+}
+
+.box-shadow {
+	-webkit-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+	   -moz-box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+			box-shadow: 0px 0px 5px 3px rgba(0,0,0,0.2);
+}
+
+.box-shadow-lg {
+	-webkit-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.07);
+	   -moz-box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.07);
+			box-shadow: 0px 0px 7px 3px rgba(0,0,0,0.07);
+}
+
+.border-null {
+	border: 0px;
+	border-color:#e5e8e8;
+}
+
+.img-circle-lectura {
+	border: 3px;
+	border-color:#a347a8;
+	border-radius: 50px;
+
+}
+
+.badge-lectura {
+	border: 3px;
+	border-color:#a347a8;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 10px;
+	border-radius: 50px;
+
+}
+
+.bg-gris-custom{
+	background: #e5e8e8;
+}
+
+.padding-card{
+	padding-top: 10px;
+  	padding-right: 10px;
+  	padding-bottom: 5px;
+  	padding-left: 10px;
+}
+
+/* ------- CIRCULOS ---------*/
+.circle-purple{
+	background:#a347a8; 
+	border-width: 3px; 
+	border-color:#701475;
+}
+
+.circle-white{
+	background:#ffffff; 
+	border-width: 3px; 
+	border-color:#ffffff;
+}
+
+.circle-bot{
+	background:rgb(233, 233, 233); 
+	border-width: 3px; 
+	border-color:#gray;
+}
+
+.circle-green{
+	background:#7ec716; 
+	border-width: 3px; 
+	border-color: #629b11;
+}
+
+.circle-yellow{
+	background:#ffa500; 
+	border-width: 3px; 
+	border-color:#cc8400;
+}
+
+.circle-blue{
+	background:#29b7db; 
+	border-width: 3px; 
+	border-color:#1c8099;
+}
+
+.circle-red{
+	background:#f01a1a; 
+	border-width: 3px; 
+	border-color:#a81212;
+}
+
+.circle-maroon{
+	background:#db316f; 
+	border-width: 3px; 
+	border-color:#ac154c;
+}
+
+.circle-maroon-intro{
+	background:#ac154c; 
+	border-width: 3px; 
+	border-color:#6c0d30;
+}
+
+/* -------------------- BOTONES --------------------------- */
+/* AZUL */
+.bg-azul{
+	color: #fff;
+  background-color: #4680ff !important;
+  border-color: #4680ff !important;
+}
+.btn-azul{
+	color: white;
+  background-color: #4680ff;
+  border-color: #4680ff;
+}
+.btn-azul:hover{
+	color: white;
+  background-color: #1c63fa !important;
+  border-color: #1c63fa !important;
+}
+.btn-azul:focus{
+	color: white;
+  background-color: #4680ff;
+  border-color: #4680ff;
+}
+/* VERDE */
+.bg-verde{
+	color: #fff;
+  background-color: #03cf58 !important;
+  border-color: #03cf58 !important;
+}
+.btn-verde{
+	color: white;
+  background-color: #02c754;
+  border-color: #02c754;
+}
+.btn-verde:hover{
+	color: white;
+  background-color: #02c754 !important;
+  border-color: #02c754 !important;
+}
+.btn-verde:focus{
+	color: white;
+  background-color: #02c754;
+  border-color: #02c754;
+}
+/* ------- TEXTOS ---------*/
+
+.text-gris{
+	color: rgba(0,0,0,0.2);
+}
+
+.text-white{
+	color: #ffffff;
+}
+
+.text-gris-dark{
+	color: #566573 ;
+}
+
+.text-morado{
+	color:#98309d;
+}
+
+.text-morado-dark{
+	color:#701475;
+}
+.bg-gris{
+	background-color: rgba(0,0,0,0.07);
+}
+.bg-azul{
+	color: #fff;
+  background-color: #4680ff !important;
+  border-color: #4680ff !important;
+}
+.btn-azul{
+	color: white;
+  background-color: #4680ff;
+  border-color: #4680ff;
+}
+.btn-azul:hover{
+	color: white;
+  background-color: #1c63fa !important;
+  border-color: #1c63fa !important;
+}
+.btn-azul:focus{
+	color: white;
+  background-color: #4680ff;
+  border-color: #4680ff;
+}
+.bg-verde{
+	background-color:#8dde19;
+}
+.bg-verde-dark{
+	background:#70b114;
+}
+.text-verde{
+	color:#8dde19;
+}
+
+.text-verde-dark{
+	color:#70b114;
+}
+.text-azuld{
+	color:#3171fc;
+}
+
+.text-azul{
+	color:#29b7db;
+}
+
+.text-azul-dark{
+	color:#1c8099;
+}
+
+.text-rojo{
+	color:#f01a1a;
+}
+
+.text-rojo-dark{
+	color:#a81212;
+}
+
+.text-amarillo{
+	color:#ffa500;
+}
+
+.text-amarillo-dark{
+	color:#cc8400;
+}
+
+
+#sortable1, #sortable2, #sortable3, #sortable4 {
+	font: 15px 'trebuchet MS', 'lucida sans';
+    text-decoration: none;
+    padding: 0;
+    height: 20 px;
+    background: #eee;
+    color: #444;
+    text-decoration: none;
+    border-radius: .2em;
+	list-style-type: none;
+	padding: 10px 10px 10px 10px;
+	margin-bottom: 20px;
+}
+
+#sortable1 li, #sortable2 li, #sortable3 li, #sortable4 li {
+	list-style-type: none;
+    font: 18px 'trebuchet MS', 'lucida sans';
+    color: #1c8099;
+    text-align: center;
+}
+
+#sortable5 {
+    counter-reset: li; 
+    list-style: none; 
+    *list-style: decimal; 
+    font: 15px 'trebuchet MS', 'lucida sans';
+    padding: 0;
+    margin-left: 4em;
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+}
+
+#sortable5 ol {
+    margin: 0 0 0 2em; 
+}
+
+#sortable5 li{
+    position: relative;
+    display: block;
+    padding: .4em .4em .4em 2em;
+    *padding: .4em;
+    margin: .5em 0;
+    background: #ddd;
+    color: #444;
+    text-decoration: none;
+    border-radius: .3em;
+    margin-bottom: 3em;
+    transition: all .2s ease-out;   
+}
+
+#sortable5 li:hover{
+    background: #eee;
+}
+
+#sortable5 li:hover:before{
+    transform: rotate(1080deg);  
+}
+
+#sortable5 li:before{
+    content: counter(li);
+    counter-increment: li;
+    position: absolute; 
+    left: -1.3em;
+    top: 55%;
+    margin-top: -1.3em;
+    background: #29b7db;
+    color: white;
+    height: 3em;
+    width: 3em;
+    line-height: 2em;
+    border: .3em solid #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 2em;
+    transition: all 1s ease-out;
+}
+
+/*input file*/
+.input-file-container{
+	margin: 20px;
+	position: relative;
+}
+
+.js .input-file-trigger {
+  transition: all .4s;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+}
+.js .input-file {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  opacity: 0;
+  padding: 14px 0;
+  cursor: pointer;
+}
+.js .input-file:hover + .input-file-trigger,
+.js .input-file:focus + .input-file-trigger,
+.js .input-file-trigger:hover,
+.js .input-file-trigger:focus {
+  background: #ac154c;
+  color: #fff;
+}
+
+.file-return {
+  margin: 0;
+}
+.file-return:not(:empty) {
+  margin: 1em 0;
+}
+.js .file-return {
+  font-style: italic;
+  font-size: .9em;
+  font-weight: bold;
+}
+.js .file-return:not(:empty):before {
+  content: "Archivo: ";
+  font-style: normal;
+  font-weight: normal;
+}
